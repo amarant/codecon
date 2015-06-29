@@ -120,13 +120,3 @@ fn test_sample2() {
   let score = find_score(17);
   assert_eq!(test_result, score);
 }
-
-#[bench]
-fn bench_for_0_222(b: &mut Bencher) {
-  b.iter(|| {
-    for i in 0..223 {
-      find_score(i);
-    }
-  });
-}
-
