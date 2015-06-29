@@ -22,3 +22,7 @@ path = "src/laundry_day.rs"
 [[bin]]
 name = "messed_up_rugby"
 path = "src/messed_up_rugby.rs"
+
+[[bin]]
+name = "a_compliance_problem"
+path = "src/a_compliance_problem.rs"
