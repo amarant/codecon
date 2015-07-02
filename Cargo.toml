@@ -26,3 +26,7 @@ path = "src/messed_up_rugby.rs"
 [[bin]]
 name = "a_compliance_problem"
 path = "src/a_compliance_problem.rs"
+
+[[bin]]
+name = "yet_another_compliance_problem"
+path = "src/yet_another_compliance_problem.rs"
